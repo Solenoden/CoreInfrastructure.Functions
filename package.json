@@ -6,7 +6,10 @@
     "start": "func start",
     "lint": "eslint ./"
   },
-  "author": "",
+  "author": "Gavin de Bruyn",
+  "dependencies": {
+    "axios": "0.24.0"
+  },
   "devDependencies": {
     "eslint": "7.29.0"
   }

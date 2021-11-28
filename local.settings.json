@@ -2,6 +2,8 @@
   "IsEncrypted": false,
   "Values": {
     "FUNCTIONS_WORKER_RUNTIME": "node",
-    "NODE_ENV": "development"
+    "NODE_ENV": "development",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=stcore14202;EndpointSuffix=core.windows.net;AccountKey=G6b4ksD+SrEMJkq1GuFH/zuW9QITQ1BLt0I/B8c9WeV0Fpog9uCM+SaA2bMmXpnX8ZTbsdfMtraaoHEo5xP1Aw==",
+    "APPS_TO_KEEP_ALIVE": "[]"
   }
 }
