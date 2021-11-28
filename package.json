@@ -1,0 +1,13 @@
+{
+  "name": "core_infrastructure_functions",
+  "version": "0.0.1",
+  "description": "Functions used to manage my cloud infrastructure.",
+  "scripts": {
+    "start": "func start",
+    "lint": "eslint ./"
+  },
+  "author": "",
+  "devDependencies": {
+    "eslint": "7.29.0"
+  }
+}
