@@ -8,7 +8,7 @@ async function KeepAlive(context, req) {
     if (appsToKeepAlive.length > 0) {
         appsToKeepAlive.forEach(app => {
             context.log(`Function: KeepAlive pinged ${app}`)
-            axios.get(app + '/keepAlive')
+            axios.get(app + '/')
         })
     }
 
